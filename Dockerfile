@@ -1,4 +1,5 @@
 FROM java:openjdk-7u75-jre
+MAINTAINER David Blooman <david.blooman@gmail.com>
 
 RUN mkdir -p /opt/results
 WORKDIR /opt

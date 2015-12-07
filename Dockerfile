@@ -6,7 +6,7 @@ WORKDIR /opt
 
 RUN apt-get update -y && apt-get install wget -y
 
-RUN wget -O gatling.zip https://oss.sonatype.org/content/repositories/snapshots/io/gatling/highcharts/gatling-charts-highcharts-bundle/2.2.0-SNAPSHOT/gatling-charts-highcharts-bundle-2.2.0-20150317.093647-1-bundle.zip
+RUN wget -O gatling.zip https://oss.sonatype.org/content/repositories/snapshots/io/gatling/highcharts/gatling-charts-highcharts-bundle/2.2.0-SNAPSHOT/gatling-charts-highcharts-bundle-2.2.0-20151117.093914-376-bundle.zip
 RUN unzip gatling.zip
 RUN mv gatling-charts-highcharts-bundle-2.2.0-SNAPSHOT/ gatling
 
